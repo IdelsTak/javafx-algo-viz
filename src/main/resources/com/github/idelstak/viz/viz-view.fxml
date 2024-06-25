@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<BorderPane fx:id="root" prefHeight="240.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/22"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.github.idelstak.viz.VizViewController">
+    <center>
+        <Canvas fx:id="canvas" BorderPane.alignment="CENTER"/>
+    </center>
+    <top>
+        <ToolBar prefHeight="40.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+            <Button mnemonicParsing="false" onAction="#startAlgorithm" text="Start Algorithm"/>
+        </ToolBar>
+    </top>
+</BorderPane>
